@@ -1,0 +1,56 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color:rgb(6, 0, 11);
+    line-height: 1.6;
+}
+
+#showcase{
+    background-image: url('../images/chosen-avenger.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: left;
+    text-align: left;
+    padding: 0 20px;
+    
+
+}
+
+.flexbox-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position:center;
+    
+}
+
+.navigation{
+    display:flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.nav ul{
+    
+    display:flex;
+    list-style: none;
+    
+}
+
+.nav ul li {
+    margin-right:20px;
+    position:absolute;
+}
+
+
+
