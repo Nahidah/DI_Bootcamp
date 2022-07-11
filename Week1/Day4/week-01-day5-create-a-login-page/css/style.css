@@ -1,0 +1,13 @@
+body{
+    background-color: #344a72;
+    font-family: 'Roboto' , sans-serif;
+}
+
+
+.login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: 3px;
+}
